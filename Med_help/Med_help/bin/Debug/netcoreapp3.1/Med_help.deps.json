@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Med_help/1.0.0": {
+        "dependencies": {
+          "MessagingToolkit.QRCode": "1.0.3541.23206"
+        },
+        "runtime": {
+          "Med_help.dll": {}
+        }
+      },
+      "MessagingToolkit.QRCode/1.0.3541.23206": {
+        "runtime": {
+          "MessagingToolkit.QRCode.dll": {
+            "assemblyVersion": "1.0.3541.23206",
+            "fileVersion": "1.0.3541.23206"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Med_help/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MessagingToolkit.QRCode/1.0.3541.23206": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Med_help
 {
-    class Ill
+    public class Ill
     {
         string discription;
         int period;
@@ -14,6 +14,17 @@ namespace Med_help
             this.discription = discription;
             this.period = period;
             this.question = question;
+        }
+        public override string ToString()
+        {
+            string end = "";
+            end += discription + ", длилась " + period +"дней ";
+            if (question)
+            {
+                end += "диагноз под вопросом";
+            }
+            
+            return end;
         }
     }
 }

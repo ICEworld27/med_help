@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Med_help
 {
-    class Document
+    public class Document
     {
         int number;
         Person owner;
@@ -14,6 +14,12 @@ namespace Med_help
             this.number = number;
             this.owner = owner;
             this.time_of_issue = time_of_issue;
+        }
+        public override string ToString()
+        {
+            string end = "";
+            end += "№" + number + " Выдана: " + owner + " Время выдачи: " + time_of_issue; 
+            return end;
         }
     }
 }

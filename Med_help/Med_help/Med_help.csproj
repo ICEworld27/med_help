@@ -6,4 +6,10 @@
     <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="MessagingToolkit.QRCode">
+      <HintPath>..\..\..\..\Downloads\MessagingToolkit.QRCode.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

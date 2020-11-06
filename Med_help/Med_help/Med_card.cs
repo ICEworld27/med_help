@@ -4,12 +4,13 @@ using System.Text;
 
 namespace Med_help
 {
-    class Med_card : Document
+    public class Med_card : Document
     {
-        List<Ill> Ills = new List<Ill>();
+        public List<Ill> Ills = new List<Ill>();
         public Med_card(int number, Person owner, DateTime time_of_issue) : base(number, owner, time_of_issue)
         {
 
         }
+        
     }
 }
